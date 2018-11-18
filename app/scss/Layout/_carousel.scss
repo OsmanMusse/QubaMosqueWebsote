@@ -1,0 +1,270 @@
+#carousel{
+
+
+  .first-container{
+    display: flex;
+  }
+
+  .carousel-outer{
+    display: flex;
+    width:58%;
+  }
+
+  .slick-slide{
+    width: 698px !important;
+  }
+
+  .slick-dots{
+    display: flex;
+    width: 95%;
+    bottom: 136px;
+    padding-left: 30px;
+
+    li{
+      display: flex;
+      background-color: transparent;
+      border: 2px solid $mid-gray;
+      border-radius: 50px;
+
+      &.slick-active{
+        background-color: transparent;
+        border: 2px solid white;
+
+        button{
+          display: flex;
+          color: red !important;
+          width: 1px;
+          height: 1px;
+          background-color: white;
+          border-radius: 50px;
+          margin: 0 auto;
+          align-self: center;
+
+          &:before{
+            color: $white;
+          }
+        }
+      }
+
+      button{
+        display: none;
+      }
+    }
+  }
+
+ .carousel-container{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+
+
+        img{
+         width: 700px;
+         height: 465px;
+      }
+
+   h1{
+     font-family: ITCAvantGardeStd-Md;
+     color: $white;
+     max-width: 330px;
+     margin: 0 auto;
+     margin-bottom: em(20px);
+     font-size: em(33px);
+     font-weight: 700;
+   }
+ }
+
+ .carousel-text-contain{
+   position: absolute;
+   padding-left: 30px;
+   padding-top: em(170px);
+ }
+
+
+
+
+
+
+
+
+
+   .active{
+     span{
+       position: relative !important;
+       display: flex !important;
+       justify-content: center;
+       align-items: center !important;
+       border-color: $white !important;
+       width: 18px !important;
+       height: 18px !important;
+       &:before{
+         content: '';
+         position: absolute;
+         border: 2px solid $white;
+         width: 4px !important;
+         height:4px !important;
+         border-radius: 50px;
+         background-color: $white;
+       }
+
+     }
+   }
+
+   // span{
+   //   width: 18px !important;
+   //   height: 18px !important;
+   //   border: 2px solid $mid-gray;
+   //   background-color: transparent !important;
+   // }
+
+
+ .carousel-info{
+   display: inline-flex;
+   background-color: #98ca03;
+   width: 640px;
+   height: 50px;
+   justify-content: space-between;
+   align-items: center;
+   padding: em(10px) em(20px) em(10px) em(40px);
+
+   p{
+     font-family: ITCAvantGardeStd-md;
+     font-size: 14px;
+     color: $white;
+   }
+ }
+
+ .mosque-timetable{
+
+   width: 350px;
+   margin-left: 20px;
+
+   .prayer-header{
+     background-color: #a7da0d;
+   }
+
+   .prayer-title{
+     display: flex;
+
+     span{
+       max-width: 122px;
+       color: $white;
+       border: none;
+       font-family: ITCAvantGardeStd-Md;
+       align-self: center;
+       font-size: em(18px);
+       margin-left: em(20px);
+     }
+   }
+
+   .mosque-icon{
+     width: 75px;
+     height: 75px;
+   }
+
+   .mosque-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: em(15px);
+    padding-right: em(15px);
+
+    .current-month{
+
+      display: flex;
+      flex-direction: column;
+
+
+      span{
+        font-family: ITCAvantGardeStd-Md;
+        text-align: left;
+        font-size: em(16px);
+        margin-bottom: em(5px);
+
+        &.green-color{
+          color: $wasabi;
+        }
+      }
+    }
+
+    .current-time{
+      display: flex;
+      flex-direction: column;
+
+      span{
+        font-family: ITCAvantGardeStd-Md;
+        text-align: left;
+        font-size: em(16px);
+        margin-bottom: em(5px);
+
+        &.green-color{
+          color: $wasabi;
+        }
+      }
+    }
+   }
+
+   .prayer-content{
+     background-color: #D8D8D8;
+     height: 461px;
+
+     .more-info{
+       padding-top: em(10px);
+       padding-left: em(15px);
+       padding-right: em(15px);
+
+       img{
+         width: 45px;
+         height: 45px;
+       }
+
+       .inner-info{
+         display: flex;
+         align-items: center;
+         align-content: center;
+         justify-content: space-between;
+
+         .outer-box{
+           display: flex;
+           align-items: center;
+         }
+
+         .info-span{
+           display: flex;
+           flex-direction: column;
+           margin-top: 8px;
+           margin-left: 18px;
+
+
+           span{
+             font-family: ITCAvantGardeStd-Md;
+             text-align: left;
+             font-size: em(17px);
+
+             &.green-color{
+               color: $wasabi;
+             }
+
+           }
+         }
+       }
+     }
+
+
+     .bottom-title{
+       display: block;
+       margin-top: em(43px);
+       color: $wasabi;
+       font-family: ITCAvantGardeStd-Md;
+       font-size: em(17px);
+       text-align: center;
+     }
+   }
+
+
+ }
+
+
+
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="25px" viewBox="0 0 19 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>clock-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1025.000000, -1160.000000)" fill="#2B2B2B" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(977.000000, 942.000000)">
+                <g id="Timetable-menu-Copy-2">
+                    <g id="News-time" transform="translate(39.000000, 180.000000)">
+                        <g id="Group-7-Copy-2" transform="translate(9.000000, 38.614148)">
+                            <g id="Group-6">
+                                <g id="clock-icon">
+                                    <path d="M9.23932378,0 C4.24224202,0 0.1769822,5.45485438 0.1769822,12.1600478 C0.1769822,18.8652412 4.24224202,24.3200955 9.23932378,24.3200955 C14.2364055,24.3200955 18.3016654,18.8652412 18.3016654,12.1600478 C18.3016654,5.45485438 14.2364055,0 9.23932378,0 Z M9.23932378,22.8895017 C4.82969499,22.8895017 1.24314004,18.076984 1.24314004,12.1600478 C1.24314004,6.24311159 4.82969499,1.43059386 9.23932378,1.43059386 C13.6489526,1.43059386 17.2355075,6.24311159 17.2355075,12.1600478 C17.2355075,18.076984 13.6489526,22.8895017 9.23932378,22.8895017 Z M14.9262097,12.8753447 L14.9262097,14.3059386 L8.52926266,14.3059386 L8.52926266,7.1529693 L9.5954205,7.1529693 L9.5954205,12.8753447 L14.9262097,12.8753447 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

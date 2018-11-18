@@ -1,0 +1,71 @@
+.btn-sm-grey{
+ background-color: $mid-gray;
+ color: #F1F0F5;
+ font-family: ITCAvantGardeStd-Md;
+ font-size: em(14.5px);
+ padding: em(18px) em(22px);
+ border-radius: em(3px);
+ border-color: transparent;
+ cursor: pointer;
+ outline-color: inherit;
+}
+
+.btn-sm-black{
+  display: flex;
+  justify-content: center;
+  background-color: $ebony;
+  color: #F1F0F5;
+  font-family: ITCAvantGardeStd-Md;
+  font-size: em(18px);
+  width: 150px;
+  height: 53px;
+  padding: em(0px);
+  text-transform: uppercase;
+  border-radius: em(3px);
+  border-color: transparent;
+  cursor: pointer;
+  outline-color: inherit;
+}
+
+.btn-green-tranparent{
+  background-color: transparent;
+  border: 1px solid $white;
+  border-radius: 5px;
+  width: 133px;
+  height: 34px;
+  padding-top: em(4px);
+  color: $white-opacity;
+  font-family: ITCAvantGardeStd-Md;
+  font-size: em(14px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+
+.btn-white-lg{
+  font-family: AvantGardeLT-Bold;
+  background-color: white;
+  border-color: white;
+  padding: em(25px) em(55px);
+  color: #525255;
+  text-transform: uppercase;
+}
+
+.btn-submit-sm{
+  font-family: ITCAvantGardeStd-Bk;
+  font-size: em(12px);
+  background-color: #b3e025;
+  color: $white;
+  padding: em(8px) em(17px);
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:focus{
+    outline: none;
+  }
+
+}

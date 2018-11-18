@@ -1,0 +1,337 @@
+#news-section{
+
+  display: inline-flex;
+  flex-wrap: wrap;
+
+.news-grid{
+  display: grid;
+  grid-template-columns: 340px 340px 1fr;
+  grid-template-rows: 643px;
+  grid-column-gap: em(33px);
+
+  &:nth-child(2){
+    margin-top: em(50px);
+  }
+
+  img{
+  width: 100%;
+  }
+
+  .grid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $tuna;
+
+    h1{
+     font-family: ITCAvantGardeStd-Bk;
+     font-size: em(17px);
+     color: #FCFCFD;
+     margin-bottom: em(18px);
+   }
+
+   .inner-content{
+     padding: em(20px) em(20px);
+     padding-bottom: em(80px);
+     text-align: center;
+
+
+     span{
+       font-family: ITCAvantGardeStd-Md;
+       font-size: em(15px);
+       color: #9D9DA6;
+     }
+
+     p{
+       font-family: ITCAvantGardeStd-Bk;
+       font-size: em(15px);
+       color: #CFCFD2;
+     }
+
+     .btn-white-lg{
+       margin-top: em(30px);
+     }
+   }
+
+   }
+
+   .latest-news{
+    width: 350px;
+
+
+     .news-header{
+       background-color: #a7da0d;
+       width: 100%;
+       .header-contain{
+         display: flex;
+         align-items: center;
+
+         h1{
+           font-family: ITCAvantGardeStd-Md;
+           color: $white;
+           font-size: em(25px);
+         }
+
+         img{
+           width: 50px;
+           height: 50px;
+         }
+
+       }
+     }
+
+     .news-content{
+       background-color: $alto;
+       padding-top: em(30px);
+       padding-left: em(31px);
+       padding-right: em(31px);
+       height: 566px;
+
+       .news-inner{
+         .news-1{
+           margin-bottom: em(30px);
+          p {
+           font-family: ITCAvantGardeStd-Md;
+           font-size: em(17px);
+            color: #2b2b2b;
+            opacity: 0.9;
+            margin: em(0px);
+            margin-bottom: em(17px);
+           }
+         }
+
+         .news-time{
+           display: flex;
+           align-items: center;
+           img{
+             &.time-icon{
+             width: 27px;
+             height: 27px;
+            }
+           }
+
+           span{
+             font-family: ITCAvantGardeStd-Md;
+             color: $wasabi;
+             margin-top: em(3px);
+             margin-left: em(12px);
+           }
+         }
+
+
+         .bottom-title{
+           font-family: ITCAvantGardeStd-Md;
+           font-size: em(16px);
+           color: $wasabi;
+           text-align: center;
+           display: flex;
+           justify-content: center;
+         }
+
+       }
+     }
+   }
+
+   .community-news{
+     width: 350px;
+
+     .card-1{
+       position: relative;
+       margin: 0 auto;
+       height: 140px;
+       margin-bottom: 87px;
+       text-align: center;
+
+       h2{
+         position: absolute;
+         left: 0;
+         font-family: ITCAvantGardeStd-Md;
+         font-size: em(16.5px);
+         color: $white;
+       }
+
+       .header-bold{
+         position: absolute;
+         font-family: ITCAvantGardeStd-Md;
+         color: $white;
+         margin-top: em(40px);
+         &:nth-child(2){
+           margin-top: em(75px);
+           font-family: ITCAvantGardeStd-Bold;
+           font-size: em(18px);
+           color: $white;
+         }
+
+         &:nth-child(3){
+           margin-top: em(160px);
+           margin-right:  em(120px);
+           font-family: ITCAvantGardeStd-Md;
+           font-size: em(13px);
+           color: #bdbdc5;
+         }
+       }
+
+       .news-date{
+         position: absolute;
+         display: inline-block;
+         margin-top: 130px;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .news-bold{
+           font-family: ITCAvantGardeStd-Md;
+           font-size: em(13px);
+           color: $french-gray;
+           margin-top: em(130px);
+
+           &:nth-child(2){
+             margin-top: em(0px);
+             margin-left: em(20px);
+           }
+         }
+       }
+
+       .card-content{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+       }
+
+     }
+
+
+   }
+
+}
+
+} // Closing News section
+
+
+#related-news{
+
+   display: inline-flex;
+
+  .related-grid{
+    display: grid;
+    grid-template-columns: repeat(3,340px);
+    grid-template-rows: 230px;
+    grid-column-gap: em(33px);
+    margin-top: em(50px);
+
+    .related-news-item{
+      background-color: #E1EAC8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: em(30px) em(0px);
+
+      .related-wrapper{
+        display: inline-flex;
+        align-items: flex-start;
+        align-content: center;
+        margin-left: em(22px);
+
+         h2{
+           margin-left: em(18px);
+           text-transform: uppercase;
+           color: #635f5f;
+           font-size: em(22px);
+           margin-top: em(0px);
+           margin-bottom: em(0px);
+         }
+
+         img{
+           &.subscribe-icon{
+             position: relative;
+             bottom: 5px;
+           }
+         }
+      }
+
+      h2{
+        font-family: ITCAvantGardeStd-Md;
+        font-size: em(19px);
+        color: #2B2B2B;
+        margin-top: em(18px);
+        margin-bottom: em(25px);
+      }
+
+
+      span{
+        font-family: ITCAvantGardeStd-Md;
+        font-size: em(14px);
+        color: #9a9e99;
+        margin-top: em(10px);
+        margin-left: em(50px);
+      }
+
+      input{
+        font-family: ITCAvantGardeStd-Bk;
+        font-size: em(17px);
+        border-color: transparent;
+        padding: em(5px) em(0px);
+        border-radius: 4px;
+        color: #676767;
+        align-self: flex-start;
+        margin-left: em(13px);
+        padding-left: em(10px);
+        margin-top: em(15px);
+        width: 75%;
+        &::placeholder{
+          font-size: em(12px);
+        }
+        
+        &:focus{
+          outline: none;
+        }
+
+      }
+
+      img{
+
+        &.quran-book{
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      button{
+        color: #2B2B2B;
+        border-color: #B3B3B3;
+      }
+
+      .btn-submit-sm{
+        color: white;
+        border-color: transparent;
+      }
+
+      .submit-form{
+          display: inline-flex;
+          flex-direction: row;
+          align-items: center;
+          position: relative;
+          width: 100%;
+
+          button{
+            position: absolute;
+            bottom: 0;
+            right:57px;
+            height: 34px;
+          }
+      }
+
+      &:nth-child(3){
+        width: 350px;
+        justify-content: flex-start;
+        padding-top: em(70px);
+        align-items: flex-start;
+      }
+
+
+    } // Closing Related News item
+
+
+  }
+}
