@@ -69,3 +69,20 @@
   }
 
 }
+
+
+
+.btn-submit-lg{
+  font-family: ITCAvantGardeStd-Bk;
+  font-size: em(15px);
+  background-color: transparent;
+  border: 1px solid #e6e6ea;
+  color: #e6e6ea;
+  padding:em(15px) em(53px);
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover{
+    color: #A0C313;
+  }
+}
