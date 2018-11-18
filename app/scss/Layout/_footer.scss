@@ -205,4 +205,46 @@
 
 }
 
+
+.grid-3{
+
+   .news-header{
+     font-family: Arial;
+     font-size: em(18px);
+     text-transform: uppercase;
+     color: #CACAD3;
+     position: relative;
+     margin-bottom: em(38px);
+     &:before{
+       content: '';
+       position: absolute;
+       width: 88px;
+       bottom: -10px;
+       border-bottom: 1px solid #A0C313;
+     }
+   }
+
+   input, textarea{
+     font-family: Arial;
+     font-size: em(15px);
+     background-color: transparent;
+     border-color: #979797;
+     border: 1px solid #979797;
+     padding: em(10px) em(55px) em(10px) em(15px);
+     margin-bottom: em(27px);
+
+     &::placeholder{
+       color: #CACAD3;
+     }
+
+     &.text-area{
+       padding-right: em(45px);
+       height: 180px;
+     }
+   }
+
+} // Closing Grid-3
+
+
+
 }
